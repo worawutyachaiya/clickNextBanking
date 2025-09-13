@@ -22,34 +22,7 @@
 ### DevOps
 - **Docker & Docker Compose** - Containerization
 - **3 Container Architecture** (Frontend, Backend, Database)
-
-## ฟีเจอร์หลัก
-
-### การยืนยันตัวตน (Authentication)
-- ✔️ การตรวจสอบอีเมล
-- ✔️ ระบบ JWT token-based authentication
-- ✔️ จัดการ session ผ่าน Local storage
-- ✔️ ออกจากระบบอัตโนมัติเมื่อ token หมดอายุ
-
-### การทำธุรกรรม (Banking Operations)
-- ✔️ ฝากเงิน (0.01 - 100,000 ฿)
-- ✔️ ถอนเงิน (พร้อมตรวจสอบยอดคงเหลือ)
-- ✔️ อัปเดตยอดเงินแบบ Real-time
-- ✔️ เพิ่มรายละเอียดธุรกรรม
-
-### การจัดการรายการ (Transaction Management)
-- ✔️ ดูประวัติธุรกรรม
-- ✔️ แก้ไขรายการฝาก (คำนวณยอดใหม่อัตโนมัติ)
-- ✔️ ลบรายการพร้อมยืนยัน
-- ✔️ ระบบแบ่งหน้า (Pagination)
-
-### ส่วนติดต่อผู้ใช้ (UI/UX)
-- ✔️ Responsive design (มือถือ & คอมพิวเตอร์)
-- ✔️ การออกแบบด้วย Tailwind CSS
-- ✔️ แสดงสถานะการโหลดและข้อผิดพลาด
-- ✔️ หน้าต่างยืนยัน (Confirmation modals)
-
-
+- 
 ### Prerequisites
 - Docker Desktop installed
 - Node.js v16.20.2+ (for local development)
@@ -80,3 +53,14 @@ This will start:
 - Docker containerization (3 containers)
 - จัดการ session ผ่าน Local storage
 - สถาปัตยกรรมแบบ Component-based
+
+##.env
+- NODE_ENV=development
+- PORT=3001
+- DB_HOST=localhost
+- DB_PORT=5433(default 5432)
+- DB_NAME=banking_db
+- DB_USER=postgres
+- DB_PASSWORD=1234
+- JWT_SECRET=worawut013
+- FRONTEND_URL=http://localhost:8080
