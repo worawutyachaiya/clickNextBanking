@@ -54,7 +54,7 @@ This will start:
 - จัดการ session ผ่าน Local storage
 - สถาปัตยกรรมแบบ Component-based
 
-##.env
+## .env
 - NODE_ENV=development
 - PORT=3001
 - DB_HOST=localhost
