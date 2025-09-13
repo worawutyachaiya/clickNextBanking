@@ -1,6 +1,6 @@
 # ClickNext Banking Application
 
-แอปพลิเคชันธนาคารออนไลน์แบบ Full-Stack ที่พัฒนาด้วย Vue.js, Node.js/Express, PostgreSQL และ Tailwind CSS
+Full-Stack ที่พัฒนาด้วย Vue.js, Node.js/Express, PostgreSQL และ Tailwind CSS
 
 ## Tech Stack
 
